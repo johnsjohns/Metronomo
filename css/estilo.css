@@ -1,4 +1,32 @@
+#container_botao{
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    border: 1px solid rgb(200,200, 200);
+    cursor: pointer;
+    background: rgb(237, 237, 237);
+    margin-bottom: 5px;
+}
+
+
+#contorno {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background: rgb(220, 220, 220);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    border: 1px solid rgb(200,200, 200);
+    
+}
+
 #botao{
+    border: 1px solid rgb(200,200, 200);
     border-radius: 50%;
     width: 50px;
     height: 50px;
@@ -6,9 +34,8 @@
     align-items: center;
     justify-content: center;
     outline: none;
-    margin-bottom: 50px;
-    border: none;
     cursor: pointer;
+    background: rgb(237, 237, 237);
 }
 
 #play{
@@ -25,8 +52,10 @@ main {
     justify-content: center;
 }
 
+
 #display {
     width: 25px;
+    border: 2px solid  #a3b0bd ;
   
 }
 
@@ -40,6 +69,7 @@ main {
     margin: 0;
     outline: none;
     cursor: pointer;
+   
 }
 
 #mais{
@@ -63,7 +93,8 @@ main {
     opacity: 0,8;
     transition: opacity .2s;
     outline: none;
-        border-radius: 8px;
+    border-radius: 8px;
+    border: 2px solid rgb(143, 138, 138);
 }
 
 #volume:hover{
@@ -76,5 +107,7 @@ main {
     height: 15px;
     border-radius: 50%;
     cursor: pointer;
-    background: rgb(20, 20, 20);
+    background: rgb(163, 163, 163);
+    border: 2px solid rgb(143, 138, 138);
 }
+
