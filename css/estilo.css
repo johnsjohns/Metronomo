@@ -89,12 +89,12 @@ main {
 
 #volume{
     appearance: none;
-    background: #d3d3d3;;
+    background: rgb(237, 237, 237);
     opacity: 0,8;
     transition: opacity .2s;
     outline: none;
     border-radius: 8px;
-    border: 2px solid rgb(143, 138, 138);
+    border: 2px solid rgb(200, 200, 200);
 }
 
 #volume:hover{
